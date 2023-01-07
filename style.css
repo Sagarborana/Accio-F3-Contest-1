@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  table {
+    margin-inline: auto;
+    border-collapse: collapse;
+  }
+  
+  table td {
+  
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    height: 7vh;
+    
+  }
+
+
+  tr {
+    border-bottom: 2px solid white;
+  }
+  
+  img {
+    width: 30px;
+  }
+
+  .imgName img{
+    margin-right: 10px;
+  }
+  .positive {
+    color: green
+  }
+  
+  .negative {
+    color: red;
+  }
